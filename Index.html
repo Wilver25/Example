@@ -1,0 +1,484 @@
+<doctype html>
+<html lang="en-US">
+	<head>
+		<title>Ejemplo de payaso</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="MobileOptimized" content="320"/>   
+
+		<!--Documentos externos-->
+		<link rel="stylesheet" type="text/css" href="../CSS/main.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Formulario.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/portafolio.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/seccion.css">
+	</head>
+	<body>
+		<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Mi ejemplo de comercio electronico xd">&nbsp;</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Inicio</a></li>
+                <li><a href="#work">Trabajos</a></li>
+                <li><a href="#about">Galería</a></li>
+                <li><a href="#contact">Información</a></li>
+				<li><a href="#shortcodes" class="external">Contacanos</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+
+<div class="container">
+	<div id="content-slider">
+    	<div id="slider">
+        	<div id="mask">
+            <ul>
+           	<li id="first" class="firstanimation">
+            <a href="#">
+            <img src="../Imagenes/img_1.jpg" alt="Cougar" width="100%" />
+            </a>
+            <div class="tooltip">
+            <h1>Cougar</h1>
+            </div>
+            </li>
+
+            <li id="second" class="secondanimation">
+            <a href="#">
+            <img src="../Imagenes/img_2.jpg" alt="Lions" width="100%"/>
+            </a>
+            <div class="tooltip">
+            <h1>Lions</h1>
+            </div>
+            </li>
+            
+            <li id="third" class="thirdanimation">
+            <a href="#">
+            <img src="../Imagenes/img_3.jpg" alt="Snowalker" width="100%"/>
+            </a>
+            <div class="tooltip">
+            <h1>Snowalker</h1>
+            </div>
+            </li>
+                        
+            <li id="fourth" class="fourthanimation">
+            <a href="#">
+            <img src="../Imagenes/img_4.jpg" alt="Howling" width="100%"/>
+            </a>
+            <div class="tooltip">
+            <h1>Howling</h1>
+            </div>
+            </li>
+                        
+            <li id="fifth" class="fifthanimation">
+            <a href="#">
+            <img src="../Imagenes/img_5.jpg" alt="Sunbathing" width="100%"/>
+            </a>
+            <div class="tooltip">
+            <h1>Sunbathing</h1>
+            </div>
+            </li>
+            </ul>
+            </div>
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Nuestro Trabajo</h2>
+                    <h3 class="title-description">Visita nuestra Proyectos en <a href="#">Dribbble</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+            <div class="span3">
+                <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                        <li class="type-work">Tipo de trabajado</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Proyecto</a></li>
+                        <li><a href="#filter" data-option-value=".design">Diseño</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Fotografía</a></li>
+                        <li><a href="#filter" data-option-value=".video">Video</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+                <div class="row">
+                    <section id="projects">
+                        <ul id="thumbs">
+                        
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="_include/img/work/full/image-01-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 photography">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 video">
+                                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                                <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="https://vimeo.com/98282850">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Video">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 photography">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 photography">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 video">
+                                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                                <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://www.youtube.com/watch?v=uKXXoUGjUkk">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-09.jpg" alt="Video" height="400">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis." width="570" height="400">
+                            </li>
+                            <!-- End Item Project -->
+                        </ul>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Nosotros</h2>
+                <h3 class="title-description">Aprenda acerca de nuestro equipo y Cultura.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Mi graduación</span>
+                </div>
+                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+            </div>
+            <h3 class="profile-name">Wilver González</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Creative Director</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Carlos Hernández</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Lead Designer</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus" width="662" height="800">
+            </div>
+            <h3 class="profile-name">Ana González</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Formulario de Contacto</h2>
+                <h3 class="title-description">Actualmente estamos aceptando nuevos proyectos de los clientes. Esperamos poder servirle.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+        <div class="span9">
+        
+            <form id="contact-form" class="contact-form" action="#">
+                <p class="contact-name">
+                    <input id="contact_name" type="text" placeholder="Nombre completo" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                    <input id="contact_email" type="text" placeholder="Correo electronico" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                    <textarea id="contact_message" placeholder="Mensaje" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                    <a id="contact-submit" class="submit" href="#">Enviar</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+            <div class="contact-details">
+                <h3>Detalles de contacto</h3>
+                <ul>
+                    <li><a href="mailto:w.anthony.g@outlook.com">w.anthony.g@outlook.com</a></li>
+                    <li>(503) 7049-4656</li>
+                    <li>
+                        Payaso Studio
+                        <br>
+                        1213 Santa Infierno. 105
+                        <br>
+                        Wilver Antonio Gonzalez
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="#" title="Siguenos en Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="#" title="Siguenos en Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="#" title="Siguenos en Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="#" title="Siguenos en Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="#" title="Siguenos en Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="#" title="Siguenos en Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="#" title="Siguenos en LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="#" title="Siguenos en ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="#" title="Siguenos en Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+<br>
+<footer>
+	<p class="credits">&copy;2014 Prueba <a href="#" title="#">Creado</a> por <a href="#" title="#">Payaso de Ojos Tristes</a></p>
+</footer>
+<a id="back-to-top" href="#"><i class="font-icon-arrow-simple-up"></i></a>
+<audio autoplay><source src=".../Musica/SOLEADO (MUSIDCA INSTRUMENTAL).mp3"></audio>
+	</body>
+</html>
